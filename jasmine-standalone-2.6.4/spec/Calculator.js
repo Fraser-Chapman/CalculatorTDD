@@ -21,4 +21,10 @@ describe("Calculator", function(){
 
         expect(calculator.subtract(number1, number2)).toBe(2);
     });
+    it("divides two numbers", function(){
+        number1 = 50;
+        number2 = 5;
+
+        expect(calculator.divide(number1, number2)).toBe(10);
+    })
 });

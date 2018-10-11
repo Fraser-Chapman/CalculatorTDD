@@ -9,4 +9,7 @@ Calculator.prototype = {
     subtract: function(number1, number2){
         return number1 - number2;
     },
+    divide: function(number1, number2){
+        return number1 / number2;
+    }
 }
