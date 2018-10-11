@@ -26,5 +26,11 @@ describe("Calculator", function(){
         number2 = 5;
 
         expect(calculator.divide(number1, number2)).toBe(10);
+    });
+    it("multiplies two numbers", function(){
+        number1 = 10;
+        number2 = 5;
+
+        expect(calculator.multiply(number1, number2)).toBe(50);
     })
 });
