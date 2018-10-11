@@ -33,4 +33,10 @@ describe("Calculator", function(){
 
         expect(calculator.multiply(number1, number2)).toBe(50);
     })
+    it("can calculate exponents", function(){
+        number1 = 5;
+        number2 = 3;
+
+        expect(calculator.toThePowerOf(number1, number2)).toBe(125);
+    });
 });

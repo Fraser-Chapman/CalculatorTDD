@@ -14,5 +14,8 @@ Calculator.prototype = {
     },
     multiply: function(number1, number2){
         return number1 * number2;
+    },
+    toThePowerOf: function(number1, number2){
+        return number1 ** number2;
     }
 }
